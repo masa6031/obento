@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44FB03191CBE643D00CCF4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB03181CBE643D00CCF4FE /* AppDelegate.swift */; };
+		44FB031B1CBE643D00CCF4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB031A1CBE643D00CCF4FE /* ViewController.swift */; };
+		44FB031E1CBE643D00CCF4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FB031C1CBE643D00CCF4FE /* Main.storyboard */; };
+		44FB03201CBE643D00CCF4FE /* icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 44FB031F1CBE643D00CCF4FE /* icon.pdf */; };
+		44FB03231CBE643D00CCF4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FB03211CBE643D00CCF4FE /* LaunchScreen.storyboard */; };
+		44FB032D1CBE7B1000CCF4FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FB032C1CBE7B1000CCF4FE /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44FB03151CBE643D00CCF4FE /* obento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FB03181CBE643D00CCF4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44FB031A1CBE643D00CCF4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44FB031D1CBE643D00CCF4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44FB031F1CBE643D00CCF4FE /* icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon.pdf; sourceTree = "<group>"; };
+		44FB03221CBE643D00CCF4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44FB03241CBE643D00CCF4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FB032C1CBE7B1000CCF4FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FB03121CBE643D00CCF4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44FB030C1CBE643D00CCF4FE = {
+			isa = PBXGroup;
+			children = (
+				44FB03171CBE643D00CCF4FE /* obento */,
+				44FB03161CBE643D00CCF4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44FB03161CBE643D00CCF4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FB03151CBE643D00CCF4FE /* obento.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FB03171CBE643D00CCF4FE /* obento */ = {
+			isa = PBXGroup;
+			children = (
+				44FB03181CBE643D00CCF4FE /* AppDelegate.swift */,
+				44FB031A1CBE643D00CCF4FE /* ViewController.swift */,
+				44FB031C1CBE643D00CCF4FE /* Main.storyboard */,
+				44FB031F1CBE643D00CCF4FE /* icon.pdf */,
+				44FB03211CBE643D00CCF4FE /* LaunchScreen.storyboard */,
+				44FB03241CBE643D00CCF4FE /* Info.plist */,
+				44FB032C1CBE7B1000CCF4FE /* Images.xcassets */,
+			);
+			path = obento;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44FB03141CBE643D00CCF4FE /* obento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FB03271CBE643D00CCF4FE /* Build configuration list for PBXNativeTarget "obento" */;
+			buildPhases = (
+				44FB03111CBE643D00CCF4FE /* Sources */,
+				44FB03121CBE643D00CCF4FE /* Frameworks */,
+				44FB03131CBE643D00CCF4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = obento;
+			productName = obento;
+			productReference = 44FB03151CBE643D00CCF4FE /* obento.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44FB030D1CBE643D00CCF4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "com.tryworks-design";
+				TargetAttributes = {
+					44FB03141CBE643D00CCF4FE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5C9MDRJ46D;
+					};
+				};
+			};
+			buildConfigurationList = 44FB03101CBE643D00CCF4FE /* Build configuration list for PBXProject "obento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44FB030C1CBE643D00CCF4FE;
+			productRefGroup = 44FB03161CBE643D00CCF4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44FB03141CBE643D00CCF4FE /* obento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44FB03131CBE643D00CCF4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB03231CBE643D00CCF4FE /* LaunchScreen.storyboard in Resources */,
+				44FB032D1CBE7B1000CCF4FE /* Images.xcassets in Resources */,
+				44FB03201CBE643D00CCF4FE /* icon.pdf in Resources */,
+				44FB031E1CBE643D00CCF4FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44FB03111CBE643D00CCF4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FB031B1CBE643D00CCF4FE /* ViewController.swift in Sources */,
+				44FB03191CBE643D00CCF4FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44FB031C1CBE643D00CCF4FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FB031D1CBE643D00CCF4FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44FB03211CBE643D00CCF4FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FB03221CBE643D00CCF4FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44FB03251CBE643D00CCF4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44FB03261CBE643D00CCF4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44FB03281CBE643D00CCF4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = obento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IntervalTimer.obento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		44FB03291CBE643D00CCF4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = obento/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IntervalTimer.obento;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FB03101CBE643D00CCF4FE /* Build configuration list for PBXProject "obento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB03251CBE643D00CCF4FE /* Debug */,
+				44FB03261CBE643D00CCF4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FB03271CBE643D00CCF4FE /* Build configuration list for PBXNativeTarget "obento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FB03281CBE643D00CCF4FE /* Debug */,
+				44FB03291CBE643D00CCF4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44FB030D1CBE643D00CCF4FE /* Project object */;
+}
