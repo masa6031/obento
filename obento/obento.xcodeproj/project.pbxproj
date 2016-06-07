@@ -299,6 +299,7 @@
 				44FB03291CBE643D00CCF4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
